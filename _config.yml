@@ -1,9 +1,9 @@
 # Site Info
 title: nZep's archive
-tagline: 'A Jekyll theme based on Lanyon'
+tagline: 'nZep 개발 저장소'
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://nzep.github.io" target="_blank">@nZep</a>.'
 baseurl: ""
-url: ""
+url: http://nzep.github.io
 logo: '/public/logo.png'
 
 # Site configurations
@@ -35,26 +35,26 @@ author:
 # Navigation (2nd level links supported)
 nav:
   Home:           
-    - '/'
+    - '/blog'
   Blog:           
     - '/blog/'
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
-  Github Project: 
-    - 'http://codinfox.github.io/'
-
+#  Github Project: 
+#    - 'http://codinfox.github.io/'
+  
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
-hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+#hero:
+#  image: /public/img/we_will_be_giants_by_yalestewart.jpg
+#  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
 
 # Puglins
 mathjax: true # whether support mathjax
 google_analytics_token: 'UA-86846310-1' # leave blank if you don't want google analytics
-disqus_short_name: 'nzep' # leave blank if you don't want disqus
+disqus_short_name: 'nZep' # leave blank if you don't want disqus
 
